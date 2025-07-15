@@ -2,6 +2,7 @@
 
 ## Background
 A prime number is an integer number greater than 1 that has no positive divisors other than one and itself. The table below are examples of some primes numbers.
+<img src="First100Primes.png" alt="Prime Numbers Table" width="250">
 
 
 ## Directions

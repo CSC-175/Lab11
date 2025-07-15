@@ -6,13 +6,13 @@ A prime number is an integer number greater than 1 that has no positive divisors
 
 ## Directions
 Write a program that will prompt the user for an integer <b>n</b> that will be tested to determine if it is a prime number. The best approach is to start by 
-assuming the integer <b>n</b> is a prime number (<b>bool isPrime=true</b>) and attempting to prove it is not prime by testing it to find a number i that divides it evenly 
-using the modulo (remainder) operator (i.e.  n%i==0 ).
+assuming the integer <b>n</b> is a prime number (<b>bool isPrime=true</b>) and attempting to prove it is not prime by testing it to find a number <b>i</b> that divides it evenly 
+using the modulo (remainder) operator (<b>n%i==0</b>).
 
 Use a loop (a for loop is easiest) to repeatedly test the integer <b>n</b> to see if an i = 2, 3, 4, 5, . . . etc. up to <b>n</b>-1, is a divisor of the integer.  If you find a 
-number that divides <b>n</b> evenly then you have proven that the number is not prime (isPrime=false) and the program exits from the loop. If a divisor is found to prove 
+number that divides <b>n</b> evenly then you have proven that the number is not prime (<b>isPrime=false</b>) and the program exits from the loop. If a divisor is found to prove 
 that the integer n is not prime, then output the smallest number that evenly divides the integer n.  If all possibilities are exhausted and no divisor was found that 
-evenly divides integer <b>n</b> then the number must be prime (isPrime==true).
+evenly divides integer <b>n</b> then the number must be prime (<b>isPrime==true</b>).
 
 
 

@@ -1,6 +1,6 @@
 name: Autograding Tests
 'on':
-- workflow_dispatch
+- push
 - repository_dispatch
 permissions:
   checks: write
@@ -44,7 +44,9 @@ jobs:
         test-name: Test 3
         setup-command: g++ Lab11.cpp -o Lab11
         command: "./Lab11"
-        input: '10013'
+        input: '10013
+
+          '
         expected-output: 10013 is a composite number because it is divisible by 17
         comparison-method: contains
         timeout: 1
